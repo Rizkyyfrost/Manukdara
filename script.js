@@ -2,6 +2,7 @@ const bird = document.getElementById("bird");
 const pipe = document.getElementById("pipe");
 const scoreDisplay = document.getElementById("score");
 const restartButton = document.getElementById("restart");
+const flapButton = document.getElementById("flap-button");
 
 let birdY = 200;
 let gravity = 2;
@@ -10,7 +11,7 @@ let gameActive = true;
 
 // Start the game
 function startGame() {
-    document.addEventListener("click", flap);
+    flapButton.addEventListener("click", flap);
     movePipe();
 }
 
@@ -75,4 +76,4 @@ restartButton.addEventListener("click", () => {
 });
 
 // Initialize the game
-startGame(); 
+startGame();
