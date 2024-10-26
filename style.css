@@ -17,10 +17,10 @@ body {
 
 #bird {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: #ff0;
-    border-radius: 20px;
+    width: 40px; /* Ukuran gambar burung */
+    height: 40px; /* Ukuran gambar burung */
+    background-image: url('bird.png'); /* Ganti dengan nama gambar Anda */
+    background-size: cover; /* Mengubah ukuran gambar sesuai dengan elemen */
     left: 50px;
     top: 200px;
 }
@@ -46,4 +46,5 @@ body {
 button {
     margin-top: 10px;
     padding: 10px 20px;
+    font-size: 1rem;
 }
