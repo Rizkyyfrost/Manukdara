@@ -23,9 +23,8 @@ body {
     background-size: cover; /* Mengubah ukuran gambar sesuai dengan elemen */
     left: 50px;
     top: 200px;
+    transition: top 0.1s; /* Menambahkan transisi halus */
 }
-
-#pipe {
     position: absolute;
     width: 50px;
     background-color: #228B22;
